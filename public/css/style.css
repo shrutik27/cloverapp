@@ -1,0 +1,286 @@
+body{
+  background-color:rgb(33, 34, 36);
+  color:white;
+}
+.navbar {
+  overflow: hidden;
+  background-color:rgb(33, 34, 36);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  color: black;
+}
+
+.buttonIn { 
+  width: 300px; 
+  position: relative;
+  color:white;
+} 
+
+input { 
+  margin-right:0px; 
+  padding: 0px; 
+  width: 130%; 
+  outline: none; 
+  height: 50px ; 
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+} 
+
+.navbar button { 
+  position: absolute; 
+  top:0; 
+  border-radius: 5px; 
+  right: -20%; 
+  z-index: 2; 
+  border: none; 
+  top: 35px; 
+  height: 30px; 
+  cursor: pointer; 
+  color: white; 
+  background-color: #801eff; 
+  transform: translateX(2px); 
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+} 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.container-1{
+  padding-top: 160px;
+  padding-left: 5%;
+  padding-bottom: 200px;
+}
+.first-image{
+  width:110%;
+  height: 100%;
+}
+.heading{
+  padding-top: 30%;
+  font-size: 50px;
+  padding-left: 15%;
+}
+.subheading{
+  font-size: 20px;
+  padding-left: 15%;
+  padding-top: 3%;
+  color:rgb(165, 160, 160);
+}
+.content{
+  margin-left: 25%;
+  padding-bottom:140px;
+
+}
+.content-1{
+  color:  #801eff;
+  font-size: 15px ;
+}
+.content-2{
+  font-size:50px;
+}
+.content-3{
+  font-size: 19px;
+  margin-right: 32%;
+  padding-top: 45px;
+  color:rgb(165, 160, 160);
+}
+.carousel-inner img{
+   width:85%;
+   height:50%;
+   padding-top: 100px;
+}
+.screen{
+  padding-left: 15%;
+}
+
+.carousel-indicators {
+  top:70px;
+
+}
+.carousel-indicators li{
+  width:40%;
+}
+.carousel-indicators {
+  color: #801eff;
+  margin-right: 25%;
+ /* background-color: aqua;*/
+}
+.carousel-indicators .active {
+  /*background-color: black;*/
+  background-color: #801eff;
+}
+.active{
+  color: #801eff;
+}
+
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+ bottom:85%;
+ margin-left: 25%;
+ margin-right:38%;
+ font-size: 20px;
+ color:white;
+}
+.content-4{
+  padding-top: 250px;
+  margin-left:-5%;
+}
+.image-3{
+  padding-top: 250px;
+
+}
+.tasks-1{
+  color:  #801eff;
+  font-size: 18px ;
+}
+.tasks-2{
+  font-size:60px;
+}
+.tasks-3{
+  font-size: 19px;
+  margin-right: 32%;
+  padding-top: 40px;
+  color:rgb(165, 160, 160);
+}
+.card{
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  margin-right: 25%;
+  margin-top: 360px;
+  background-color:rgb(18, 19, 20);
+}
+
+.card-title{
+  font-size: 2.7vw;
+  padding-top: 5%;
+}
+.line{
+  border-left: 5px solid #801eff; 
+  height: 200px;
+  margin-left: 10px;
+  animation: animate  
+  1.5s linear infinite; 
+ 
+}
+.text-color{
+  color:#801eff;
+}
+@keyframes animate { 
+  0% { 
+      opacity: 0; 
+  } 
+
+  50% { 
+      opacity: 1; 
+  } 
+
+  100% { 
+      opacity: 0; 
+  } 
+} 
+
+hr {
+  width: 100%;
+  border-color:rgb(90, 83, 83);
+}
+.column-4 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-2 button{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #801eff;
+  color:white; 
+
+}
+.content-new{
+  margin-right: 5%;
+  margin-left: 25%;
+  padding-top: 180px;
+}
+.tasks-new-1{
+  color:  #801eff;
+  font-size: 15px ;
+}
+.tasks-new-2{
+  font-size:50px;
+}
+.tasks-new-3{
+  font-size: 19px;
+  margin-right: 32%;
+  padding-top: 40px;
+  color:rgb(165, 160, 160);
+}
+.content-5{
+  margin-left:25%;
+   padding-top: 260px;
+}
+.logo{
+  padding-left:20%;
+}
+.tom{
+  position:absolute;
+  width:30%;
+  padding-top:100px;
+}
+.jerry{
+  position:relative;
+  width:80%;
+  padding-top:400px;
+  padding-left:200px;
+}
+@media screen and (max-width: 600px) {
+  .tom {
+    width:50%;
+    padding:0px 0px 0px 0px;
+    float:left;
+  }
+  .jerry{
+    width:50%;
+    padding:0px 0px 0px 0px;
+    float:right
+  }
+}
