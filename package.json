@@ -7,5 +7,10 @@
     "start": "node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "path": "^0.12.7"
+  }
 }
