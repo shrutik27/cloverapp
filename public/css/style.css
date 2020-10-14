@@ -55,7 +55,7 @@ input {
   width:35%;
   cursor: pointer; 
   color: white; 
-  background-color: #801eff; 
+  background-color: #815CE7;
   transform: translateX(2px); 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -108,7 +108,7 @@ input {
 
 }
 .content-1{
-  color:  #801eff;
+  color:  #815CE7;
   font-size: 15px ;
   letter-spacing: .4em;
   padding-bottom: 15px;
@@ -144,16 +144,16 @@ input {
   
 }
 .carousel-indicators {
-  color: #801eff;
+  color: #815CE7;
   margin-right: 30%;
  /* background-color: ;*/
 }
 .carousel-indicators .active {
   /*background-color:;*/
-  background-color: #801eff;
+  background-color: #815CE7;
 }
 .active{
-  color: #801eff;
+  color: #815CE7;
 }
 
 
@@ -178,7 +178,7 @@ input {
 
 }
 .tasks-1{
-  color:  #801eff;
+  color:  #815CE7;
   font-size: 15px ;
   letter-spacing: .2em;
 
@@ -215,7 +215,7 @@ input {
   padding-left: 20px;
 }
 .line{
-  border-left: 2.5px solid #801eff; 
+  border-left: 2.5px solid #815CE7;
   height: 200px;
   padding-left:2px;
   animation: animate  
@@ -259,7 +259,7 @@ hr {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: #801eff;
+  background-color: #815CE7;
   color:white; 
 
 }
@@ -269,7 +269,7 @@ hr {
   padding-top: 80px;
 }
 .tasks-new-1{
-  color:  #801eff;
+  color:  #815CE7;
   font-size: 14px ;
   letter-spacing:.3em ;
   line-height: 50px;
@@ -298,7 +298,7 @@ hr {
    margin-left:22%;
 }
 .tasks-11{
-  color:  #801eff;
+  color:  #815CE7;
   font-size: 13px ;
   padding-top: 20%;
   letter-spacing: .2em;
@@ -343,3 +343,4 @@ hr {
     float:right
   }
 }
+
